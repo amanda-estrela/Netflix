@@ -41,7 +41,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [HTML]
 - [CSS]
 - [JQuery]
-- [Oowl Carousel]
+- [Owl Carousel]
 
 
 ### Autora
