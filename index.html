@@ -6,7 +6,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Netflix clone</title>
         <link rel="stylesheet" href="/style/main.css">
-        
+        <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+        <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+        <link rel="stylesheet" href="style/responsive.css">
     </head>
     <body>
         <header>
@@ -29,9 +31,11 @@
                 </div>
                 <div class="botoes">
                     <button role="button" class="botao">
+                        <i class="fa-solid fa-play"></i>
                         Assistir agora
                     </button>
                     <button role="button" class="botao">
+                        <i class="fa-solid fa-circle-info"></i>
                         Mais informações
                     </button>  
                 </div>
@@ -39,6 +43,45 @@
             </div>
         </main>
 
+        <div class="carrosel-filmes">
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <img src="img/batman.jpg" class="box-filme" alt="Poster Batman">
+                </div>
+                <div class="item">
+                    <img src="img/semvoltapracasa.jpg" class="box-filme" alt="Poster Homem Aranha - Sem volta para casa">
+                </div>
+                <div class="item">
+                    <img src="img/cavaleirodalua.jpg" class="box-filme" alt="Poster Cavaleiro da lua">
+                </div>
+                <div class="item">
+                    <img src="img/thekardashians.jpg" class="box-filme" alt="Poster The Kardashians">
+                </div>
+                <div class="item">
+                    <img src="img/encanto.jpg" class="box-filme" alt="Poster Encanto">
+                </div>
+                <div class="item">
+                    <img src="img/oprojetoadam.jpg" class="box-filme" alt="Poster O Projeto Adam">
+                </div>
+                <div class="item">
+                    <img src="img/multiversodaloucura.jpg" class="box-filme" alt="Poster Dr Estranho no multiverso da loucura">
+                </div>
+                <div class="item">
+                    <img src="img/freeguy.jpg" class="box-filme" alt="Poster Free Guy">
+                </div>
+                <div class="item">
+                    <img src="img/matrixresurrections.jpg" class="box-filme" alt="Poster Matrix Resurrections">
+                </div>
+                <div class="item">
+                    <img src="img/moonfall.jpg" class="box-filme" alt="Poster Moonfall">
+                </div>
+            </div>            
+        </div>
 
+        <script src="https://kit.fontawesome.com/f4b67e1392.js" crossorigin="anonymous"></script>
+        <script src="js/owl/jquery.min.js"></script>
+        <script src="js/owl/owl.carousel.min.js"></script>
+        <script src="js/owl/setup.js"></script>
     </body>
-    </html>
+
+</html>
